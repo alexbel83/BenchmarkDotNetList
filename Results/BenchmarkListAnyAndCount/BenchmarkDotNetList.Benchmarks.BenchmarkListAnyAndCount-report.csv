@@ -1,3 +1,0 @@
-Method,count,Mean
-CheckEmptyByCount,20000,4.956 μs
-CheckEmptyByAny,20000,95.696 μs

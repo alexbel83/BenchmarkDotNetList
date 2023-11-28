@@ -1,0 +1,9 @@
+Method,count,Mean
+AddStructToList,5000,64.53 μs
+AddStructToListWithCapacity,5000,13.88 μs
+AddClassToList,5000,41.10 μs
+AddClassToListWithCapacity,5000,32.51 μs
+AddStructToList,20000,334.89 μs
+AddStructToListWithCapacity,20000,149.86 μs
+AddClassToList,20000,414.20 μs
+AddClassToListWithCapacity,20000,"1,005.57 μs"

@@ -1,0 +1,5 @@
+Method,count,Mean
+AddToList,5000,12.149 μs
+AddRangeToList,5000,1.158 μs
+AddToList,20000,88.814 μs
+AddRangeToList,20000,5.731 μs

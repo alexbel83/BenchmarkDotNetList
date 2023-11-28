@@ -1,7 +1,23 @@
-﻿internal class Program
+﻿using BenchmarkDotNet.Running;
+using BenchmarkDotNetList.Benchmarks;
+
+internal class Program
 {
+
+	public static void Main(string[] args)
+	{
+		BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
+		Console.ReadLine();
+	}
+		
+		
+		//=> BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
+
+	/*
 	private static void Main(string[] args)
 	{
-		Console.WriteLine("Hello, World!");
+		BenchmarkRunner.Run<BenchmarkListCapacity>();
+		Console.ReadLine();
 	}
+	*/
 }

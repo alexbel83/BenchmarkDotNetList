@@ -9,15 +9,4 @@ internal class Program
 		BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
 		Console.ReadLine();
 	}
-		
-		
-		//=> BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
-
-	/*
-	private static void Main(string[] args)
-	{
-		BenchmarkRunner.Run<BenchmarkListCapacity>();
-		Console.ReadLine();
-	}
-	*/
 }
